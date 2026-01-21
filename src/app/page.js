@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -14,9 +15,10 @@ export default function Home() {
           priority
         />
         <div className={styles.intro}>
-          <h1>Student Name</h1>
-
+          <h1>Khalaile Nour</h1>
+        
             Here your app should come....
+            <Link href="/system">מעבר ל-System</Link>
 
         </div>
       </main>
