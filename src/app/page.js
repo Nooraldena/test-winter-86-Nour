@@ -18,8 +18,7 @@ export default function Home() {
           <h1>Khalaile Nour</h1>
         
             Here your app should come....
-            <Link href="/system">מעבר ל-System</Link>
-
+            <Link href="/system/">מעבר ל-System</Link>
         </div>
       </main>
     </div>
